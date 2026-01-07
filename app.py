@@ -7,7 +7,7 @@ import numpy as np
 # Ensure these files are in the same directory as your streamlit_app.py
 # or provide the full path.
 try:
-    rf_model = joblib.load('rf_model.pkl')
+    rf_model = joblib.load('rf_model_compressed.pkl')
     model_features = joblib.load('model_features.pkl')
     feature_defaults = joblib.load('feature_defaults.pkl')
     categorical_options = joblib.load('categorical_options.pkl')
